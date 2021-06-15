@@ -35,7 +35,7 @@ from werkzeug.utils import secure_filename
 application = Flask(__name__)
 
 # Model saved with Keras model.save()
-MODEL_PATH ='model_resnet50.h5'
+MODEL_PATH ='keras_model.h5'
 
 # Load your trained model
 model = load_model(MODEL_PATH)
